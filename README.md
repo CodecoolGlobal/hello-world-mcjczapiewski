@@ -20,7 +20,7 @@ You have to use:
     - [MANDATORY] The returned string of the function is exactly `Hello, World!`
     - Function `hello_world()` itself does not print anything
 
-2. Create and implement the parametrized function `hello(name)` that takes one string argument and returns `"Hello, <name>!"`
+2. Create and implement the parametrized function `hello(name)` that takes one string argument and returns `Hello, <name>!`
 
     - For any non-empty String return `Hello, <name>!`
     - If `name` is empty or None, return `Hello, World!`
@@ -45,8 +45,7 @@ You have to use:
 
 ## General requirements
 
-
-    - Have an installed a Python 3 environment, and an editor to write code!
+- Have an installed a Python 3 environment, and an editor to write code!
 
 ## Hints
 
