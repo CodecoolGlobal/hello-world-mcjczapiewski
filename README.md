@@ -45,7 +45,8 @@ You have to use:
 
 ## General requirements
 
-- Have an installed a Python 3 environment, and an editor to write code!
+
+ - Have an installed a Python 3 environment, and an editor to write code!
 
 ## Hints
 
@@ -58,6 +59,6 @@ https://classroom.github.com/a/ruimqo-O
 
 ## Background materials
 
-- :triangular_flag_on_post: [Introduction to Python](../pages/python/python-basics.md)
-- [Command line arguments in Python](https://appdividend.com/2019/01/22/python-sys-argv-tutorial-command-line-arguments-example/)
+- :exclamation: [Introduction to Python](../pages/python/python-basics.md)
+- :exclamation: [Tutorial about command line arguments in Python](https://www.pythonforbeginners.com/system/python-sys-argv)
 - [How to clone a Git repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
