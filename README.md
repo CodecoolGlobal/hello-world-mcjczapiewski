@@ -59,6 +59,14 @@ https://classroom.github.com/a/ruimqo-O
 
 ## Background materials
 
-- :exclamation: [Introduction to Python](../pages/python/python-basics.md)
-- :exclamation: [Tutorial about command line arguments in Python](https://www.pythonforbeginners.com/system/python-sys-argv)
+- :exclamation: [How to approach learning Python?](../pages/python/learning-python.md)
+- :exclamation: [Strings](../pages/python/strings.md)
+- :exclamation: [Functions](../pages/python/functions.md)
+- [Command line arguments in Python](https://appdividend.com/2019/01/22/python-sys-argv-tutorial-command-line-arguments-example/)
 - [How to clone a Git repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+
+
+## Acceptance review
+
+You will need this only at review time, **after** completing the project.
+[Use this form](https://forms.gle/erbKxNc6hQRLRzEh8) to record the review you provide for your peer.
