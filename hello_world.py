@@ -1,3 +1,5 @@
+import sys
+
 i = 1
 
 
@@ -9,18 +11,18 @@ def hello(name):
     if name:
         say_what = "Hello, " + name + "!"
     else:
-        say_what = "Hellow, World!"
+        say_what = "Hello, World!"
     return say_what
 
 
 def print_hello(name):
-    say_what = name.say_what
+    say_what = hello(name)
     if say_what:
         print(say_what)
 
 # def print_cmd_line():
 
-# def print_mltp_args():
+# def print_multiple_args():
 
 
 def task():
@@ -40,4 +42,8 @@ print(hi_you)
 
 task()
 hi_you = print_hello(name)
+print(hi_you)
+
+task()
+hi_you = hello(sys.argv[1])
 print(hi_you)
