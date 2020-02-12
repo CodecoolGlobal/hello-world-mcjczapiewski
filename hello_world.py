@@ -20,10 +20,6 @@ def print_hello(name):
     if say_what:
         print(say_what)
 
-# def print_cmd_line():
-
-# def print_multiple_args():
-
 
 def task():
     global i
@@ -31,19 +27,35 @@ def task():
     i += 1
 
 
-task()
+task()  # 1
 hi_you = hello_world()
 print(hi_you)
 
-task()
+task()  # 2
 name = input("Hi! What's your name?: ")
 hi_you = hello(name)
-print(hi_you)
 
-task()
-hi_you = print_hello(name)
-print(hi_you)
+task()  # 3
+print_hello(name)
 
-task()
-hi_you = hello(sys.argv[1])
-print(hi_you)
+task()  # 4
+try:
+    hi_you = hello(sys.argv[1])
+    print(hi_you)
+except IndexError:
+    print("No argument passed on command line.")
+
+task()  # 5
+j = 1
+names = ""
+while j < len(sys.argv):
+    if not names:
+        names = sys.argv[1]
+    else:
+        names = names + " " + sys.argv[j]
+    j += 1
+if names:
+    hi_you = hello(names)
+    print(hi_you)
+else:
+    print("No argument passed on command line.")
